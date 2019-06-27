@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<script type="text/javascript">
+		
+		// var n = 1 + 2;
+		
+		// ++，--【一元运算符】
+		
+		// var a = 1;
+
+		// // a++;// a自增1
+		// ++a; // a自增1
+
+		// a++;
+
+		// ++a;
+
+		// a--;// a自减1
+
+		// --a;
+
+		// alert(a);
+
+
+		// a++,++a
+
+
+		// 如果a++或者++a单独运算的话，都代表a自增1
+		// 但是：如果有其他操作（运算符）参与运算的时候，那么a++和++a，就有不同的含义
+		
+
+
+		// var a = 1;
+
+		// // var b = a++;// 【b = 1，a = 2】
+		// // var b = ++a;// 【a = 2，b = 2】
+		// var b = a++;// 【b = 1，a = 2】
+		// var c = ++a;// 【a = 3，c = 3】
+		
+		// console.log(a,b,c);
+
+
+		// var a = 6;
+
+		// a++;
+		// ++a;
+
+		// document.write(a++);
+
+
+		// var a = 3;
+		// var k = n + m;
+		// var b = 3 + 5;
+		// var b = a++ + ++a;
+		
+
+		// // var b = 3 + 4
+		// var b = a++ + a++;
+		// // alert(b);
+		// console.log(a,b);
+
+
+		// var a = 1;
+ 
+		// // var b = 1 + 2 + 3[a = 4]
+		// var b = a++ + a++ + a++;
+
+		// console.log(a,b);
+
+
+		var a = 6;// 【a = 6】
+		var b = a++;// 【b = 6，a = 7】
+		var i = b++;// 【i = 6, b = 7】
+		var j = ++b;// 【b = 8,j = 8】
+		var n = ++a;//【a = 8,n = 8】
+		var m = i++;// 【m = 6,i = 7】
+		var ab = m++;// 【ab = 6，m=7】
+
+		// 8,8,7,8,8,7,6 + ４
+		// 8,8,7,8,8,6,6 +２
+		// 8，6，7，8，7，7，6
+		// 8,8,6,8,8,7,6
+		// 8,7,6,7,8,6,6
+		// 8878887
+		console.log(a,b,i,j,n,m,ab);
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
